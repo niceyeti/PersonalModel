@@ -1,0 +1,72 @@
+here, seed is >once upon a time
+here2
+here3
+Ngrams=4
+ i = once
+ i = upon
+ i = a
+ i = time
+DEBUG seed is >once upon a time
+9
+once upon a time calling predictWord_BoolDynamic(once upon a time)
+  ret: in
+in 
+calling predictWord_BoolDynamic(upon a time in)
+  ret: the
+the calling predictWord_BoolDynamic(a time in the)
+  ret: future
+future calling predictWord_BoolDynamic(time in the future)
+  ret: of
+of calling predictWord_BoolDynamic(in the future of)
+  ret: the
+the calling predictWord_BoolDynamic(the future of the)
+  ret: country
+country calling predictWord_BoolDynamic(future of the country)
+  ret: and
+and calling predictWord_BoolDynamic(of the country and)
+  ret: the
+the calling predictWord_BoolDynamic(the country and the)
+  ret: world
+world calling predictWord_BoolDynamic(country and the world)
+  ret: of
+of calling predictWord_BoolDynamic(and the world of)
+  ret: the
+the calling predictWord_BoolDynamic(the world of the)
+  ret: living
+living calling predictWord_BoolDynamic(world of the living)
+  ret: room
+room 
+calling predictWord_BoolDynamic(of the living room)
+  ret: and
+and calling predictWord_BoolDynamic(the living room and)
+  ret: the
+the calling predictWord_BoolDynamic(living room and the)
+  ret: kitchen
+kitchen calling predictWord_BoolDynamic(room and the kitchen)
+WARN query >room and the kitchen< returned 0 results in getSubEntropy(). Returning 0.0
+  ret: and
+and calling predictWord_BoolDynamic(and the kitchen and)
+WARN query >and the kitchen and< returned 0 results in getSubEntropy(). Returning 0.0
+  ret: the
+the calling predictWord_BoolDynamic(the kitchen and the)
+  ret: dining
+dining calling predictWord_BoolDynamic(kitchen and the dining)
+  ret: room
+room calling predictWord_BoolDynamic(and the dining room)
+  ret: table
+table calling predictWord_BoolDynamic(the dining room table)
+  ret: and
+and calling predictWord_BoolDynamic(dining room table and)
+WARN query >room table and< returned 0 results in getSubEntropy(). Returning 0.0
+WARN query >dining room table and< returned 0 results in getSubEntropy(). Returning 0.0
+  ret: the
+the calling predictWord_BoolDynamic(room table and the)
+WARN query >table and the< returned 0 results in getSubEntropy(). Returning 0.0
+WARN query >room table and the< returned 0 results in getSubEntropy(). Returning 0.0
+9
+  ret: the
+the calling predictWord_BoolDynamic(table and the the)
+WARN query >the the< returned 0 results in getSubEntropy(). Returning 0.0
+WARN query >and the the< returned 0 results in getSubEntropy(). Returning 0.0
+WARN query >table and the the< returned 0 results in getSubEntropy(). Returning 0.0
+

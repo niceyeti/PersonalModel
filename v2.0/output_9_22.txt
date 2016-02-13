@@ -1,0 +1,170 @@
+jesse@jesse-1015E:~/Desktop/TeamGleason/src/nGram/v8.0$ ./nGram 
+in ctor
+Some system stats...
+sizeof: ulong long=8  long uint=8  long double=16   double=8
+procId[2447] priority: 0
+procId[2447] priority: 0 after call to setpriority(-19). Exec as sudo if priority did not change or is not -19.
+Jesse: set proc priority high, set memsize large if possible
+sizeof(multimap<string>)= 48  sizeof(multimap<multimap>) = 48
+begin... file: ../../../corpii/coca_ngrams/w2c.txt
+Processing COCA 2-gram file to map<string,map<string,long double> >: ../../../corpii/coca_ngrams/w2c.txt
+...  100% complete 
+build time (s): 18
+  built coca model[2] 53396 keys   size is (kb): 0
+begin... file: ../../../corpii/coca_ngrams/w3c.txt
+Processing COCA 3-gram file to map<string,map<string,long double> >: ../../../corpii/coca_ngrams/w3c.txt
+...  100% complete 
+build time (s): 20
+  built coca model[3] 247439 keys   size is (kb): 0
+begin... file: ../../../corpii/coca_ngrams/w4c.txt
+Processing COCA 4-gram file to map<string,map<string,long double> >: ../../../corpii/coca_ngrams/w4c.txt
+...  100% complete 
+build time (s): 21
+  built coca model[4] 475371 keys   size is (kb): 0
+begin... file: ../../../corpii/coca_ngrams/w5c.txt
+Processing COCA 5-gram file to map<string,map<string,long double> >: ../../../corpii/coca_ngrams/w5c.txt
+...  100% complete 
+build time (s): 26
+  built coca model[5] 781414 keys   size is (kb): 0
+.********************************Model Statistics*********************************
+  H(X) is total/raw entropy over all n-grams.
+  Expct. H(x) is the expected value of entropy computed for each n-1 gram subset.
+  Perplexity is simply pow(2,entropy(x)) or rather 2^(H(x)).
+
+         Raw H(X)  Expct. H(x)   Avg Expct. H(x)   Perplexity   Avg Expct. Perp.
+---------------------------------------------------------------------------------
+ 1-gram  10.8969   NA            NA                   1906.79
+ 2-gram  17.8304   8.2849        2.1655             233073.63      311.88
+ 3-gram  19.6260   5.2445        1.0829             809141.73       37.91
+ 4-gram  20.2141   3.1517        0.7219            1216291.92        8.89
+ 5-gram  18.8104   1.9567        0.4885             459735.64        3.88
+ 1g POS  -1.0000   NA            NA                     -1.00
+ 2g POS  -1.0000  -1.0000       -1.0000                 -1.00       -1.00
+ 3g POS  -1.0000  -1.0000       -1.0000                 -1.00       -1.00
+ 4g POS  -1.0000  -1.0000       -1.0000                 -1.00       -1.00
+ 5g POS  -1.0000  -1.0000       -1.0000                 -1.00       -1.00
+**********************************************************************************
+modelLambdas[0]: 0.200000 0.200000 0.200000 0.200000 0.200000  boolHitRate: 0  realHitRate: 0
+modelLambdas[1]: 0.024604 0.260557 0.265554 0.248860 0.200424  boolHitRate: 0  realHitRate: 0
+modelLambdas[2]: 0.000460 0.105854 0.167222 0.278260 0.448204  boolHitRate: 0  realHitRate: 0
+modelLambdas[3]: 0.083664 0.401330 0.331707 0.137192 0.046108  boolHitRate: 0  realHitRate: 0
+normalizing one-gram table...
+1-gram table size: 53396 items
+2-gram table size: 53396 items
+3-gram table size: 247439 items
+4-gram table size: 475371 items
+5-gram table size: 781414 items
+q=the 2-gram lookup time (s): 1.6376e-05
+q=to the 3-gram lookup time (s): 1.1193e-05
+q=went to the 4-gram lookup time (s): 9.793e-06
+q=he went to the 5-gram lookup time (s): 9.76e-06
+q=he went to the   sum subentropy lookup time (s): 0.0135932
+q=he went to the   predictWord_BoolDynamicLinear runtime (s): 0.237553
+q=he went to the   predictWord_RealDynamicLinear runtime (s): 0.318316
+nres=39246
+q=he went to the   predictWord_BoolStaticLinear runtime (s): 0.224333
+q=he went to the   predictWord_RealStaticLinear runtime (s): 0.306411
+nres=39246
+main.cc enter number: (99 to quit)
+8
+Testing linear models...
+0.0651261% complete (7kb read) gramCt: 756
+ hits: 103 13.6243%  real: 19.6539%  recall: 415 54.8942% top7: 25.7937%
+ hits: 103 13.6243%  real: 19.6378%  recall: 415 54.8942% top7: 25.6614%
+ hits: 103 13.6243%  real: 19.6131%  recall: 415 54.8942% top7: 26.7196%
+ hits: 100 13.2275%  real: 19.6055%  recall: 415 54.8942% top7: 25.1323%
+0.130252% complete (15kb read) gramCt: 2202
+ hits: 270 12.2616%  real: 18.7225%  recall: 1177 53.4514% top7: 24.3869%
+ hits: 270 12.2616%  real: 18.7014%  recall: 1177 53.4514% top7: 24.3415%
+ hits: 273 12.3978%  real: 18.6613%  recall: 1177 53.4514% top7: 24.9319%
+ hits: 268 12.1708%  real: 18.6708%  recall: 1177 53.4514% top7: 23.6603%
+0.195378% complete (23kb read) gramCt: 3633
+ hits: 406 11.1753%  real: 17.2963%  recall: 1850 50.9221% top7: 22.9287%
+ hits: 406 11.1753%  real: 17.2859%  recall: 1850 50.9221% top7: 22.8737%
+ hits: 410 11.2854%  real: 17.2349%  recall: 1850 50.9221% top7: 23.3141%
+ hits: 404 11.1203%  real: 17.2889%  recall: 1850 50.9221% top7: 22.2406%
+0.260504% complete (31kb read) gramCt: 5098
+ hits: 533 10.4551%  real: 16.5312%  recall: 2550 50.0196% top7: 21.8909%
+ hits: 533 10.4551%  real: 16.5248%  recall: 2550 50.0196% top7: 21.8517%
+ hits: 535 10.4943%  real: 16.4493%  recall: 2550 50.0196% top7: 22.3029%
+ hits: 531 10.4158%  real: 16.5441%  recall: 2550 50.0196% top7: 21.2829%
+0.32563% complete (39kb read) gramCt: 6579
+ hits: 670 10.1839%  real: 16.2571%  recall: 3264 49.6124% top7: 21.5686%
+ hits: 671 10.1991%  real: 16.2566%  recall: 3264 49.6124% top7: 21.5534%
+ hits: 676 10.2751%  real: 16.1614%  recall: 3264 49.6124% top7: 22.0702%
+ hits: 672 10.2143%  real: 16.3008%  recall: 3264 49.6124% top7: 20.9606%
+0.390757% complete (47kb read) gramCt: 7998
+ hits: 817 10.2151%  real: 16.3483%  recall: 4018 50.2376% top7: 21.7554%
+ hits: 817 10.2151%  real: 16.349%  recall: 4018 50.2376% top7: 21.7304%
+ hits: 825 10.3151%  real: 16.2583%  recall: 4018 50.2376% top7: 22.2556%
+ hits: 816 10.2026%  real: 16.4027%  recall: 4018 50.2376% top7: 21.2053%
+0.455883% complete (55kb read) gramCt: 9458
+ hits: 979 10.351%  real: 16.4281%  recall: 4754 50.2643% top7: 21.8968%
+ hits: 979 10.351%  real: 16.4304%  recall: 4754 50.2643% top7: 21.8651%
+ hits: 990 10.4673%  real: 16.3409%  recall: 4754 50.2643% top7: 22.3937%
+ hits: 973 10.2876%  real: 16.4862%  recall: 4754 50.2643% top7: 21.2836%
+0.521009% complete (63kb read) gramCt: 10940
+ hits: 1113 10.1737%  real: 16.2672%  recall: 5425 49.5887% top7: 21.7367%
+ hits: 1112 10.1645%  real: 16.2691%  recall: 5425 49.5887% top7: 21.7093%
+ hits: 1124 10.2742%  real: 16.1971%  recall: 5425 49.5887% top7: 22.2486%
+ hits: 1100 10.0548%  real: 16.2876%  recall: 5425 49.5887% top7: 21.1426%
+0.586135% complete (71kb read) gramCt: 12401
+ hits: 1262 10.1766%  real: 16.2161%  recall: 6091 49.117% top7: 21.5708%
+ hits: 1261 10.1685%  real: 16.2194%  recall: 6091 49.117% top7: 21.5466%
+ hits: 1273 10.2653%  real: 16.1469%  recall: 6091 49.117% top7: 22.0627%
+ hits: 1244 10.0314%  real: 16.2314%  recall: 6091 49.117% top7: 21.0306%
+0.651261% complete (79kb read) gramCt: 13927
+ hits: 1434 10.2965%  real: 16.3473%  recall: 6875 49.3645% top7: 21.6917%
+ hits: 1433 10.2894%  real: 16.3543%  recall: 6875 49.3645% top7: 21.6701%
+ hits: 1443 10.3612%  real: 16.2775%  recall: 6875 49.3645% top7: 22.2158%
+ hits: 1418 10.1817%  real: 16.3807%  recall: 6875 49.3645% top7: 21.1532%
+0.716387% complete (87kb read) gramCt: 15429
+ hits: 1576 10.2145%  real: 16.3386%  recall: 7625 49.4199% top7: 21.654%
+ hits: 1574 10.2016%  real: 16.3443%  recall: 7625 49.4199% top7: 21.6216%
+ hits: 1587 10.2858%  real: 16.266%  recall: 7625 49.4199% top7: 22.2179%
+ hits: 1559 10.1043%  real: 16.3647%  recall: 7625 49.4199% top7: 21.1161%
+0.781513% complete (95kb read) gramCt: 16940
+ hits: 1719 10.1476%  real: 16.3378%  recall: 8412 49.6576% top7: 21.6883%
+ hits: 1717 10.1358%  real: 16.3443%  recall: 8412 49.6576% top7: 21.6588%
+ hits: 1730 10.2125%  real: 16.2598%  recall: 8412 49.6576% top7: 22.2137%
+ hits: 1699 10.0295%  real: 16.3769%  recall: 8412 49.6576% top7: 21.1924%
+0.846639% complete (103kb read) gramCt: 18429
+ hits: 1856 10.0711%  real: 16.2377%  recall: 9143 49.612% top7: 21.6235%
+ hits: 1854 10.0602%  real: 16.2443%  recall: 9143 49.612% top7: 21.591%
+ hits: 1870 10.1471%  real: 16.1566%  recall: 9143 49.612% top7: 22.1282%
+ hits: 1833 9.94628%  real: 16.2755%  recall: 9143 49.612% top7: 21.1135%
+0.911765% complete (111kb read) gramCt: 19969
+ hits: 1999 10.0105%  real: 16.2185%  recall: 9913 49.6419% top7: 21.5734%
+ hits: 1997 10.0005%  real: 16.2253%  recall: 9913 49.6419% top7: 21.5434%
+ hits: 2016 10.0956%  real: 16.1378%  recall: 9913 49.6419% top7: 22.0592%
+ hits: 1974 9.88532%  real: 16.2544%  recall: 9913 49.6419% top7: 21.0877%
+0.976891% complete (119kb read) gramCt: 21399
+ hits: 2129 9.94906%  real: 16.1184%  recall: 10569 49.3902% top7: 21.4262%
+ hits: 2127 9.93972%  real: 16.1235%  recall: 10569 49.3902% top7: 21.3935%
+ hits: 2149 10.0425%  real: 16.0412%  recall: 10569 49.3902% top7: 21.8982%
+ hits: 2104 9.83224%  real: 16.1471%  recall: 10569 49.3902% top7: 20.9309%
+1.04202% complete (127kb read) gramCt: 22905
+ hits: 2293 10.0109%  real: 16.17%  recall: 11335 49.487% top7: 21.4669%
+ hits: 2292 10.0065%  real: 16.1748%  recall: 11335 49.487% top7: 21.4407%
+ hits: 2316 10.1113%  real: 16.0915%  recall: 11335 49.487% top7: 21.9646%
+ hits: 2265 9.88867%  real: 16.1982%  recall: 11335 49.487% top7: 20.9518%
+
+*******************************************
+Lambda Model testing stats:
+Num n-grams: 22905
+Real hit-count: 3703.73
+Bool hit-count: 2293
+Giving Lambda[0]:10.0109% bool accuracy  16.17% real accuracy
+Real hit-count: 3704.85
+Bool hit-count: 2292
+Giving Lambda[1]:10.0065% bool accuracy  16.1748% real accuracy
+Real hit-count: 3685.77
+Bool hit-count: 2316
+Giving Lambda[2]:10.1113% bool accuracy  16.0915% real accuracy
+Real hit-count: 3710.2
+Bool hit-count: 2265
+Giving Lambda[3]:9.88867% bool accuracy  16.1982% real accuracy
+model recall: (TODO get and print recall)
+*******************************************
+enter any key to view hitList: 
+

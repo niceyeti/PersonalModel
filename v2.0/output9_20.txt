@@ -1,0 +1,256 @@
+/*
+  9_20
+  Runtime was about 40 mins.
+  For the accuracy, the decimal points are inaccurate.
+  The actual accuray is x100, so we actually converged around 9.79%, no 0.979% 
+*/
+
+jesse@jesse-1015E:~/Desktop/TeamGleason/src/nGram/v8.0$ ./nGram 
+in ctor
+Some system stats...
+sizeof: ulong long=8  long uint=8  long double=16   double=8
+procId[2858] priority: 0
+procId[2858] priority: 0 after call to setpriority(-19). Exec as sudo if priority did not change or is not -19.
+Jesse: set proc priority high, set memsize large if possible
+sizeof(multimap<string>)= 48  sizeof(multimap<multimap>) = 48
+begin... file: ../../../corpii/coca_ngrams/w2c.txt
+Processing COCA 2-gram file to map<string,map<string,long double> >: ../../../corpii/coca_ngrams/w2c.txt
+...  100% complete 
+build time (s): 17
+  built coca model[2] 53396 keys   size is (kb): 0
+begin... file: ../../../corpii/coca_ngrams/w3c.txt
+Processing COCA 3-gram file to map<string,map<string,long double> >: ../../../corpii/coca_ngrams/w3c.txt
+...  100% complete 
+build time (s): 19
+  built coca model[3] 247439 keys   size is (kb): 0
+begin... file: ../../../corpii/coca_ngrams/w4c.txt
+Processing COCA 4-gram file to map<string,map<string,long double> >: ../../../corpii/coca_ngrams/w4c.txt
+...  100% complete 
+build time (s): 20
+  built coca model[4] 475371 keys   size is (kb): 0
+begin... file: ../../../corpii/coca_ngrams/w5c.txt
+Processing COCA 5-gram file to map<string,map<string,long double> >: ../../../corpii/coca_ngrams/w5c.txt
+...  100% complete 
+build time (s): 25
+  built coca model[5] 781414 keys   size is (kb): 0
+.********************************Model Statistics*********************************
+  H(X) is total/raw entropy over all n-grams.
+  Expct. H(x) is the expected value of entropy computed for each n-1 gram subset.
+  Perplexity is simply pow(2,entropy(x)) or rather 2^(H(x)).
+
+         Raw H(X)  Expct. H(x)   Avg Expct. H(x)   Perplexity   Avg Expct. Perp.
+---------------------------------------------------------------------------------
+ 1-gram  10.8969   NA            NA                   1906.79
+ 2-gram  17.8304   8.2849        2.1655             233073.63      311.88
+ 3-gram  19.6260   5.2445        1.0829             809141.73       37.91
+ 4-gram  20.2141   3.1517        0.7219            1216291.92        8.89
+ 5-gram  18.8104   1.9567        0.4885             459735.64        3.88
+ 1g POS  -1.0000   NA            NA                     -1.00
+ 2g POS  -1.0000  -1.0000       -1.0000                 -1.00       -1.00
+ 3g POS  -1.0000  -1.0000       -1.0000                 -1.00       -1.00
+ 4g POS  -1.0000  -1.0000       -1.0000                 -1.00       -1.00
+ 5g POS  -1.0000  -1.0000       -1.0000                 -1.00       -1.00
+**********************************************************************************
+ERROR cannot init lambdas until COCA models are built and analyzed
+normalizing one-gram table...
+1-gram table size: 53396 items
+2-gram table size: 53396 items
+3-gram table size: 247439 items
+4-gram table size: 475371 items
+5-gram table size: 781414 items
+q=the 2-gram lookup time (s): 1.7148e-05
+q=to the 3-gram lookup time (s): 1.156e-05
+q=went to the 4-gram lookup time (s): 1.0318e-05
+q=he went to the 5-gram lookup time (s): 8.485e-06
+q=he went to the   sum subentropy lookup time (s): 0.0136407
+q=he went to the   predictWord_BoolDynamicLinear runtime (s): 0.241988
+q=he went to the   predictWord_RealDynamicLinear runtime (s): 0.319407
+nres=39246
+q=he went to the   predictWord_BoolStaticLinear runtime (s): 0.228334
+q=he went to the   predictWord_RealStaticLinear runtime (s): 0.308847
+nres=39246
+main.cc enter number: (99 to quit)
+8
+Testing linear models...
+0.0651261% complete (7kb read) gramCt: 756
+ hits: 103 0.136243%
+ hits: 103 0.136243%
+ hits: 103 0.136243%
+ hits: 103 0.136243%
+				0.130252% complete (15kb read) gramCt: 2202
+ hits: 270 0.122616%
+ hits: 270 0.122616%
+ hits: 270 0.122616%
+ hits: 270 0.122616%
+0.195378% complete (23kb read) gramCt: 3633
+ hits: 406 0.111753%
+ hits: 406 0.111753%
+ hits: 406 0.111753%
+ hits: 406 0.111753%
+0.260504% complete (31kb read) gramCt: 5098
+ hits: 533 0.104551%
+ hits: 533 0.104551%
+ hits: 533 0.104551%
+ hits: 533 0.104551%
+0.32563% complete (39kb read) gramCt: 6579
+ hits: 670 0.101839%
+ hits: 670 0.101839%
+ hits: 670 0.101839%
+ hits: 670 0.101839%
+0.390757% complete (47kb read) gramCt: 7998
+ hits: 817 0.102151%
+ hits: 817 0.102151%
+ hits: 817 0.102151%
+ hits: 817 0.102151%
+0.455883% complete (55kb read) gramCt: 9458
+ hits: 979 0.10351%
+ hits: 979 0.10351%
+ hits: 979 0.10351%
+ hits: 979 0.10351%
+0.521009% complete (63kb read) gramCt: 10940
+ hits: 1113 0.101737%
+ hits: 1113 0.101737%
+ hits: 1113 0.101737%
+ hits: 1113 0.101737%
+0.586135% complete (71kb read) gramCt: 12401
+ hits: 1262 0.101766%
+ hits: 1262 0.101766%
+ hits: 1262 0.101766%
+ hits: 1262 0.101766%
+0.651261% complete (79kb read) gramCt: 13927
+ hits: 1434 0.102965%
+ hits: 1434 0.102965%
+ hits: 1434 0.102965%
+ hits: 1434 0.102965%
+wwwwwwwwwwwwwwwwwwwwww0.716387% complete (87kb read) gramCt: 15429
+ hits: 1576 0.102145%
+ hits: 1576 0.102145%
+ hits: 1576 0.102145%
+ hits: 1576 0.102145%
+wwwwwwwwwwwwwwwwwwwwwa40.781513% complete (95kb read) gramCt: 16940
+ hits: 1719 0.101476%
+ hits: 1719 0.101476%
+ hits: 1719 0.101476%
+ hits: 1719 0.101476%
+0.846639% complete (103kb read) gramCt: 18429
+ hits: 1856 0.100711%
+ hits: 1856 0.100711%
+ hits: 1856 0.100711%
+ hits: 1856 0.100711%
+0.911765% complete (111kb read) gramCt: 19969
+ hits: 1999 0.100105%
+ hits: 1999 0.100105%
+ hits: 1999 0.100105%
+ hits: 1999 0.100105%
+0.976891% complete (119kb read) gramCt: 21399
+ hits: 2129 0.0994906%
+ hits: 2129 0.0994906%
+ hits: 2129 0.0994906%
+ hits: 2129 0.0994906%
+1.04202% complete (127kb read) gramCt: 22905
+ hits: 2293 0.100109%
+ hits: 2293 0.100109%
+ hits: 2293 0.100109%
+ hits: 2293 0.100109%
+1.10714% complete (135kb read) gramCt: 24425
+ hits: 2426 0.0993245%
+ hits: 2426 0.0993245%
+ hits: 2426 0.0993245%
+ hits: 2426 0.0993245%
+1.17227% complete (143kb read) gramCt: 25883
+ hits: 2543 0.0982498%
+ hits: 2543 0.0982498%
+ hits: 2543 0.0982498%
+ hits: 2543 0.0982498%
+1.2374% complete (151kb read) gramCt: 27469
+ hits: 2700 0.0982926%
+ hits: 2700 0.0982926%
+ hits: 2700 0.0982926%
+ hits: 2700 0.0982926%
+1.30252% complete (159kb read) gramCt: 28980
+ hits: 2822 0.0973775%
+ hits: 2822 0.0973775%
+ hits: 2822 0.0973775%
+ hits: 2822 0.0973775%
+1.36765% complete (167kb read) gramCt: 30504
+ hits: 2977 0.0975938%
+ hits: 2977 0.0975938%
+ hits: 2977 0.0975938%
+ hits: 2977 0.0975938%
+1.43277% complete (175kb read) gramCt: 32023
+ hits: 3126 0.0976173%
+ hits: 3126 0.0976173%
+ hits: 3126 0.0976173%
+ hits: 3126 0.0976173%
+1.4979% complete (183kb read) gramCt: 33520
+ hits: 3270 0.0975537%
+ hits: 3270 0.0975537%
+ hits: 3270 0.0975537%
+ hits: 3270 0.0975537%
+1.56303% complete (191kb read) gramCt: 35017
+ hits: 3430 0.0979524%
+ hits: 3430 0.0979524%
+ hits: 3430 0.0979524%
+ hits: 3430 0.0979524%
+1.62815% complete (199kb read) gramCt: 36541
+ hits: 3579 0.0979448%
+ hits: 3579 0.0979448%
+ hits: 3579 0.0979448%
+ hits: 3579 0.0979448%
+1.69328% complete (207kb read) gramCt: 38043
+ hits: 3694 0.0971006%
+ hits: 3694 0.0971006%
+ hits: 3694 0.0971006%
+ hits: 3694 0.0971006%
+1.7584% complete (215kb read) gramCt: 39545
+ hits: 3842 0.0971551%
+ hits: 3842 0.0971551%
+ hits: 3842 0.0971551%
+ hits: 3842 0.0971551%
+1.82353% complete (223kb read) gramCt: 41122
+ hits: 4021 0.0977822%
+ hits: 4021 0.0977822%
+ hits: 4021 0.0977822%
+ hits: 4021 0.0977822%
+1.88866% complete (231kb read) gramCt: 42624
+ hits: 4187 0.098231%
+ hits: 4187 0.098231%
+ hits: 4187 0.098231%
+ hits: 4187 0.098231%
+1.95378% complete (239kb read) gramCt: 44097
+ hits: 4308 0.0976937%
+ hits: 4308 0.0976937%
+ hits: 4308 0.0976937%
+ hits: 4308 0.0976937%
+2.01891% complete (247kb read) gramCt: 45599
+ hits: 4462 0.097853%
+ hits: 4462 0.097853%
+ hits: 4462 0.097853%
+ hits: 4462 0.097853%
+2.08403% complete (255kb read) gramCt: 47110
+ hits: 4598 0.0976014%
+ hits: 4598 0.0976014%
+ hits: 4598 0.0976014%
+ hits: 4598 0.0976014%
+2.14916% complete (263kb read) gramCt: 48580
+ hits: 4752 0.097818%
+ hits: 4752 0.097818%
+ hits: 4752 0.097818%
+ hits: 4752 0.097818%
+2.21429% complete (271kb read) gramCt: 50056
+ hits: 4904 0.0979703%
+ hits: 4904 0.0979703%
+ hits: 4904 0.0979703%
+ hits: 4904 0.0979703%
+2.27941% complete (279kb read) gramCt: 51516
+ hits: 5033 0.0976978%
+ hits: 5033 0.0976978%
+ hits: 5033 0.0976978%
+ hits: 5033 0.0976978%
+2.34454% complete (287kb read) gramCt: 53026
+ hits: 5195 0.0979708%
+ hits: 5195 0.0979708%
+ hits: 5195 0.0979708%
+ hits: 5195 0.0979708%
+^C
+

@@ -1,0 +1,146 @@
+9
+model sizes (1-5): 0,0,0,0,0
+begin... file: ../../../corpii/coca_ngrams/w2c.txt
+Processing COCA 2-gram file: ../../../corpii/coca_ngrams/w2c.txt
+...  100% complete 2-gram Word-Map size (kb): 22132  POS Map size (kb): 0  built coca model[2]  size is (kb): 22171
+begin... file: ../../../corpii/coca_ngrams/w3c.txt
+Processing COCA 3-gram file: ../../../corpii/coca_ngrams/w3c.txt
+...  100% complete 3-gram Word-Map size (kb): 22923  POS Map size (kb): 0  built coca model[3]  size is (kb): 22939
+begin... file: ../../../corpii/coca_ngrams/w4c.txt
+Processing COCA 4-gram file: ../../../corpii/coca_ngrams/w4c.txt
+...  100% complete 4-gram Word-Map size (kb): 24136  POS Map size (kb): 0  built coca model[4]  size is (kb): 24165
+begin... file: ../../../corpii/coca_ngrams/w5c.txt
+Processing COCA 5-gram file: ../../../corpii/coca_ngrams/w5c.txt
+...  100% complete 5-gram Word-Map size (kb): 29556  POS Map size (kb): 0  built coca model[5]  size is (kb): 29569
+2-gram table size: 945976
+before buildCocaOneGramTable, 2-gram table empty/size is: 0/22171
+2-gram table size: 945976
+3-gram table size: 978744
+4-gram table size: 1031079
+5-gram table size: 1261620
+after buildCocaOneGramTable:
+1-gram table size: 53396
+2-gram table size: 945976
+3-gram table size: 978744
+4-gram table size: 1031079
+5-gram table size: 1261620
+DEBUG sumFreq is: 2.75418e+08
+One gram entropy upperbounded by log2(num words in model). Verify this is the case. log2l(nwords)=15.7044 > calculated entropy=10.8969 ?
+9
+DEBUG sumFreq is: 2.75418e+08
+nsubsets in this table: 53396
+DEBUG sumFreq is: 1.19765e+08
+nsubsets in this table: 247439
+DEBUG sumFreq is: 4.2694e+07
+nsubsets in this table: 475371
+DEBUG sumFreq is: 1.86916e+07
+nsubsets in this table: 781414
+********************************Model Statistics*********************************
+  H(X) is total/raw entropy over all n-grams.
+  Expct. H(x) is the expected value of entropy computed for each n-1 gram subset.
+  Perplexity is simply pow(2,entropy(x)) or rather 2^(H(x)).
+
+         Raw H(X)  Expct. H(x)   Avg Expct. H(x)   Perplexity   Avg Expct. Perp.
+---------------------------------------------------------------------------------
+ 1-gram  10.8969   NA            NA                   1906.79
+    POS   -1.0000   NA            NA                      -1.00
+ 2-gram  17.8304   8.2849        2.1655             233073.63      311.88
+    POS  -1.0000   -1.0000        -1.0000                 -1.00       -1.00
+ 3-gram  19.6260   5.2445        1.0829             809141.73       37.91
+    POS  -1.0000   -1.0000        -1.0000                 -1.00       -1.00
+ 4-gram  20.2141   3.1517        0.7219            1216291.92        8.89
+    POS  -1.0000   -1.0000        -1.0000                 -1.00       -1.00
+ 5-gram  18.8104   1.9567        0.4885             459735.64        3.88
+    POS  -1.0000   -1.0000        -1.0000                 -1.00       -1.00
+**********************************************************************************
+Testing 2-gram model...  
+...  8% complete
+*******************************************
+2-gram Model testing stats:
+Num 2-grams: 191274
+Raw-hits: 1610 gramct: 191274
+Boolean predictive accuracy: 0.841724%
+Soft-hit count: 8800.98 gramCt
+Real predictive accuracy: 4.60124%
+Lambda[0]:0%  hits:0 gramCt: 191274
+Lambda[1]:0%  hits:0 gramCt: 191274
+Lambda[2]:0%  hits:0 gramCt: 191274
+*******************************************
+Testing 3-gram model...  
+...  8% complete
+*******************************************
+3-gram Model testing stats:
+Num 3-grams: 191015
+Raw-hits: 1357 gramct: 191015
+Boolean predictive accuracy: 0.710415%
+Soft-hit count: 5670.31 gramCt
+Real predictive accuracy: 2.96852%
+Lambda[0]:0%  hits:0 gramCt: 191015
+Lambda[1]:0%  hits:0 gramCt: 191015
+Lambda[2]:0%  hits:0 gramCt: 191015
+*******************************************
+Testing 4-gram model...  
+...  8% complete
+*******************************************
+4-gram Model testing stats:
+Num 4-grams: 190756
+Raw-hits: 560 gramct: 190756
+Boolean predictive accuracy: 0.293569%
+Soft-hit count: 3189.06 gramCt
+Real predictive accuracy: 1.6718%
+Lambda[0]:0%  hits:0 gramCt: 190756
+Lambda[1]:0%  hits:0 gramCt: 190756
+Lambda[2]:0%  hits:0 gramCt: 190756
+*******************************************
+Testing 5-gram model...  
+confirm first ten results from predict word: 
+your|10.8969
+you|10.8969
+workers|10.8969
+women|10.8969
+visitors|10.8969
+viewers|10.8969
+users|10.8969
+9
+HIT: you
+confirm first ten results from predict word: 
+your|10.8969
+you|10.8969
+workers|10.8969
+women|10.8969
+visitors|10.8969
+viewers|10.8969
+users|10.8969
+9
+HIT: you
+confirm first ten results from predict word: 
+your|10.8969
+you|10.8969
+workers|10.8969
+women|10.8969
+visitors|10.8969
+viewers|10.8969
+users|10.8969
+9
+HIT: you
+confirm first ten results from predict word: 
+your|10.8969
+you|10.8969
+workers|10.8969
+women|10.8969
+visitors|10.8969
+viewers|10.8969
+users|10.8969
+9
+HIT: you
+9
+9
+confirm first ten results from predict word: 
+to|10.855
+zoom|10.8969
+yourself|10.8365
+your|10.8969
+young|10.894
+you|10.8948
+HIT: you
+

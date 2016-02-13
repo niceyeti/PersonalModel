@@ -1,0 +1,1168 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This set was generated with the following parameters:
+codist_diameter: 64
+k: size of vocabulary (~8000)
+omitted words (manually eliminates some common megasets due to high frequency words): 
+  clinton
+  prudie
+  president
+  movie
+  book
+  world
+  story
+  year
+  years
+  slate
+  good
+Allowing k to be the size of the vocab allows the clusters to converge
+to natural values, or rather, the natural sets of words most related to one
+another.
+
+Pruning threshold left about 8100 words from a 60k vocabulary.
+
+Converged to 263 means after 50 iterations, although 263 was reached at iteration 18 or so.
+
+263 means:
+    bid click religious critics olympic workers music money black counsel school shoe 
+    carey cities russia writing cyril crimes willey stock lama john howard ice 
+    combat codes turnout women consistent auction bush throat neighbors gore allen jenkins 
+    kurdish memories aids star cuba staples game japanese newshour trade life brill 
+    jones iraq party hunters gas affirmative stein london dan israel europe question 
+    channels airports action government corriere gay medical cells interest george oil site 
+    sexual middle blacks sex arlington democrats dogs gambling class united christmas guides 
+    iran company church diana peanut confirmed dad security fashion players lewinsky giuliani 
+    cook british search gun monica front globe wp care south facial cond 
+    hiv coca increasing jacob address india team cars discussion tobacco bradley soccer 
+    ioc weld cover garden timor depression states post men language starr sports 
+    dog beer key participants wines irish missile peace kosovo write bin fleece 
+    poetry fighting mount scores van store nato salinger secret posted sprint francisco 
+    saddam foreign european guests yorker cum capital white kin albright's hill plane 
+    potter rating answers list film wave mall wall economists children nuclear laden 
+    park convicted minister web doctors lewis bosnian elite read abortion pol florida 
+    prize russian washington source ad drink bounty marriage pok beers court students 
+    answer teen princess jewish teeth hottest japan winter eggs independent dark work 
+    celebration food bars stockholders social buchanan drudge parents dear saving rights health 
+    registration catholic aol english china ni sinn hat water cell submissions drug 
+    mom paris paul curve evolutionary puerto open fence jews king's books shopping 
+    immigrants adultery german sopranos morris murdoch avenger la dole word 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+auction:
+    dutch ebay mask bid 
+read:
+    bucks salon elegant urge edge hope kakutani dishes diary boring impressed chatterbox's 
+    shared worthy struggles tongue poems reading pull hear insights format disagree shulevitz 
+    weisberg's hip recommend lovely shit caution novel dish aware excerpt commentary latin 
+    preview author favorite knowledge talents shakespeare tears click fray breakfast sand heading 
+    subsequently futile excellent following lay learn collection topics mailer errors copy chapter 
+    surprised poet sophisticated michiko similarities text 
+christian:
+    evangelical coalition sin brush ralph faith christians jesus religious dobson reed satan 
+    
+film:
+    adaptation sweet cinema sci fuck acclaimed maslin caricature thomas chicago nbc moments 
+    schickel films witch jokes edelstein stephen awards beautifully ebert comedy apocalypse lone 
+    boston stunt critics upbeat leonard con follows opens brilliantly predecessor soundtrack oscar 
+    jar andy watch bite fabulous joe anna lonely amusing tortured wit altered 
+    collaboration footage stanley mile director disappointment stature scorsese noir thrilling hollywood shooting 
+    twins anderson paramount lane nights praising overcome intense denby staged character compares 
+    forgiveness fan studio comic burn casting visit shot film's played russell camera 
+    emotionally steven brothers theatrical technically pictures emotion masterpiece holden cartoon malkovich cry 
+    roger variety directing todd piano screenwriter cast classic laughed hbo acting stills 
+    climax turan cage theaters stereotypes slam uses hustler disappointing arts directors kevin 
+    wallace funny romantic sequence core festival visual paints david blowing screening ryan 
+    scene village imagery filmmakers hollywood's overly approached frames producer acted directed sony 
+    classics edelstein's starts gleiberman slick audience sun nicholas susan clever flesh reactions 
+    studios rushed opened kubrick ian smart movies eastwood projected starring predictable actors 
+    digital creates editing kaufman truths ashamed earnest lee's reviews phantom academy jack 
+    oliver killer epic shining echoes genre scream concert flaw video considers triumph 
+    trailer flynt terrifying plays gordon brandon characters halfway filmmaker evil element fake 
+    sarah tries nick damn awful raves concede aesthetic pretentious ford scenes dennis 
+    gaze raging screenplay tension doll screen lisa mccarthy movie's documentary boy's dancing 
+    premise viewers edited universal performances judy convey watching vista rocks fierce blockbuster 
+    miramax featuring vaguely lynch performance meets original bernard formula admiration eyed picture 
+    stage bulworth effects intensity beatty stone ain't sticks spike remake morgenstern hated 
+    spectacular owen irony horror catherine joan dialogue abandoning loses depiction robin laughs 
+    innocence harvey portrayal hoffman paranoid script nostalgia critic entertainment menace satire taxi 
+    instinct critics' magnificent plot eyes protagonist colors intentions ensemble thrill voice 
+ioc:
+    juan perception olympic sponsors 
+labor:
+    cio organizing afl workers marx intensive herman protesters wage unions standards mining 
+    federation solidarity reich 
+rock:
+    hop marilyn poetic eddie disco absorbed mid band clock blast stations courtney 
+    recording loud broadway underground dies velvet distracted manson beatles pop elvis voices 
+    punk song listening stones guitar music rent miller lyrics mighty chuck tin 
+    records victor boomers metal boomer rap rolling musical masses simon blues songs 
+    musicians album performers roll beats charisma who'd miller's charts 
+government:
+    trust established aims ivory examples demanded consent establishing obtain native maintain essential 
+    broad efforts citizens exists dealt protest allow harm taxpayer declaration infrastructure cabinet 
+    federal influence legitimate corruption blocked applied rockefeller respected fears resources punish transaction 
+    payment forced socialist dubbed tensions activist accepting spreading libertarian servants constituency activities 
+    rhetoric qualify shifts economically begun act recommends controlled explaining national idealism destroyed 
+    buildings dominated labeled permitted vague afford politicians sector lesson broadcasting contracts brooks 
+    intelligence request accept recognized worthless activism fueled libertarians measures pointed protecting dollars 
+    nea dissent disputes representation borrow debt justified longtime subsidized conditions authoritarian applies 
+    opposition notably larger recognition regulatory impose editorialists require system financed negotiated secure 
+    operate implementation unlikely farmers banks contract processing effective reducing participate code feds 
+    iranian insisted communists inadequate observers threat aid burden credit needed preparing theodore 
+    increasingly seal safety exposed encryption millions achieve rebellion greatness undermined wants government's 
+    pollution private arguments mae shortage insult spends reforms agencies favors ambitious create 
+    exempt policies active sharing voluntary failed demands subsidy fearing predecessors democracy sufficient 
+    era volunteers officials promised goal concerns governed initiative role restore waste arranged 
+    argue foreigners massive manage founders speculate agency bigger protect worried bloody monitor 
+    seek mexico's electoral establish repeal liberalism transition efficiency alternative agriculture lobbying protests 
+    owned adopt ruled nader freedom confusion spending steer carried allowed responsibility join 
+    civilized mcveigh stepped blame clean elected crisis morally prevents political collapse jailed 
+    returned consider prevent bureaucrats collapsed restrictions big enforce seized fraud losing bank 
+    regulations veterans proposed launched limited sums appeals weak checks governments contributing supporting 
+    corrupt supported worry bonds billions proposes planned parliamentary assistance train administrative incentives 
+    special bailout control appointed focused taxpayers grant dealer restored help mandela engage 
+    task ties voluntarily tried funding department facilities initiatives disappointed guarantees projects concedes 
+    program seeking expect chinese influenced paying tribal fire ruling arrogant unnecessary denounced 
+    implemented sponsored refused current eliminate objections functions fannie treasury rebel internal granted 
+    authorities law authority competent power concept intended revolt insist argument persuaded optimistic 
+    money attacked created country's urging borrowing guarantee survived programs routinely spend 
+white:
+    green outfit danny tables naked dirt glory lend symbols smooth gray passing 
+    revive whites oklahoma cotton spot poison texaco passionate boards buddy expresses noise 
+    admit mixed farewell demonstrates pride brings racist associate walks colored yellow photographed 
+    trash deliberately collar woods dressed serves privilege accepted incidents crude eleanor pr 
+    arrangement fantasy contacted orange attitudes vigorous mystical rewards denial describe discourse strictly 
+    house's pepper ickes color literally quarters heads compromised walls pulls background black 
+    heavy wary racism admitted stare speaks straightforward historically pants sheer skin races 
+    house suspicious embarrassing davis invites alarming arrived africans delicate consciousness theories mainstream 
+    threatens entered defined compelled inheritance buddies intention enter solely clad indians slavery 
+    champion videos jackson integration baker pink latino foster turning conversation photographs bedroom 
+    familiar coat nicely tiger williams absurd sheets notorious ambiguous guts wing reaches 
+    check diverse dust asian tarzan assistant tea arrogance race harold precisely riot 
+    offended confess silence polish red blown politically invisible visits taylor scorn savage 
+    confirm mix nixon's southern advisers headed alabama bigotry light condemn paranoia privileges 
+    yeah thrust phase convincing handed leather crime memorial blessing greeted slave grounds 
+    initially slipped african assertion 
+independent:
+    permanent investigated probe credible tainted wrongdoing appointment investigations reno counsel prosecute distraction 
+    expenditures prosecutor 
+schools:
+    education tuition integrated homework rankings improve charter busing school magnet public kansas 
+    assign rated colleges secondary gottlieb neighborhoods opportunities rigorous load learning promoting 
+shoes:
+    shoe wearing feet pairs nike heels lively 
+ups:
+    carey teamsters strike 
+urban:
+    siegel cities suburbs 
+russian:
+    yeltsin's laundering identifying chechnya aboard soviet chernomyrdin russians mir station russia's moscow 
+    businessmen putin islamic boris rebels chechen russia ministry grozny vladimir border kremlin 
+    chaos diplomats yeltsin 
+write:
+    acquisition hidden hey toobin dare disregard writing novelty 
+universe:
+    cyril eternal einstein arbitrary dimensions exist hole existence bang physics creator positively 
+    energy mechanical vyvyan 
+crime:
+    crimes violent motivated commit juvenile murdered police organized mixture prosecuted persons confessed 
+    hate cop odds schumer probation prison criminals crack capt punishment victim destructive 
+    committing defendant 
+steele:
+    willey willey's kathleen grab scared julie unwanted advances denies pass incident isikoff 
+    
+market:
+    bankers october returns future pill greenspan considerable matches analysts financial sudden leverage 
+    driven sell lucrative supply regulators slump liberty cocktail tickets value index bull 
+    ipo buying crash innovation economies slow crucial moves announcing willing domination markets 
+    excess handedly ceo nasdaq expecting assets shift dominant combination woes assuming willingness 
+    depends economy underlying consumer analyst dow morgan brands management slide dive entry 
+    meaningful dramatic prices orders uncertainty inevitable inherent exchanges consumers capitalism commodity flood 
+    investor essentially invested anticipated mania goods priced expanding mac smaller competitive everyone's 
+    panic shares chasing bond offering competitors turmoil jump investments giant trading traders 
+    recipe drops rely company's mutual greenspan's term globalization simply logic tender enemy 
+    immense assure ibm burned dubious impact offerings buy ballmer investing invest demand 
+    correction recommendations startling overvalued plunge anxious exchange traded incredibly dominate weaker paradox 
+    huge companies irrational bear circuit dramatically tomorrow hysterical impossible profit buyers stock 
+    badly monopoly infinite chatter phenomenon bubble pricing investors dominance selling burst going 
+    expectation cap efficient spread conclusion production distribution reserves apple sharply soup market's 
+    securities dumping operating advantages institutional easier steel oddly successful hedge importantly funds 
+    marketing mart booming price stocks justify banking producers doomed tremendous boom equity 
+    options competition free 
+dalai:
+    tibet escaped lama spiritual buddhist 
+kennedy:
+    orbit douglas resemblance brinkley pathetic cemetery uncle bobby seymour clip cousin john 
+    curse jr tragedy mate johnson's johnson hersh forged addicted reckless ted heir 
+    zeal kennedy's jfk lyndon teddy 
+stern:
+    pig howard stuffed 
+skating:
+    costumes jumping outfits flip ice 
+training:
+    basic combat exercises marine units 
+torah:
+    science codes peer dates critique 
+rain:
+    forecast suppress prediction forest wet turnout 
+men:
+    sensitive boys heroes sang promise exploiting shelter losers fight angel crushed victorian 
+    difficulty chambers righteous signals screwed viagra oppression kissing vulgar lasting caps availability 
+    bright psychology keepers crises handsome dry siege women bullets interviews executed esteem 
+    impotence surrounded successes assembly dependence choices raid suffer senses males satisfying hiss 
+    horses females lifestyle male lethal wise ambrose penis impulses faludi wives 
+consistency:
+    division systematic principle divided tube consistent 
+bid:
+    auction highest auctions sensible rounds hostile takeover mickey bidding 
+george:
+    populism pataki spontaneous mitchell straw identities shocked bush touches stephanopoulos martha abc's 
+    segment donaldson exclude confusing lucas kristol founding elect nathan 
+deep:
+    bulletin atlantic woodward revealed felt pockets bernstein throat garry 
+killer:
+    neighbors serial 
+bradley:
+    foul financing iowa moynihan restrained gore humility lecture surge respective broder nominee 
+    aura desperate demonstrated nomination ethanol phony subsidies momentum campaigning defend contest sam 
+    sat proposing responded politics emphasizing lifetime positive experiments slap opponent reform challenger 
+    picks mildly goodness remained portrays vouchers bradley's substance shake endorsing senator tactics 
+    defensive unfair rid skepticism politician aspect reasonably princeton bill portraying possibilities commercials 
+    cokie horse klein hampshire battles roberts issuing guns expects thoughtful plate cautious 
+    
+allen's:
+    woody allen jodie 
+lord:
+    thatcher distinguish tricky roy jenkins 
+turkey:
+    turkish greece ocalan kurds capture kurdish earthquake 
+memory:
+    mice collective remembering remembers memories recovered siegfried boot introduction 
+hiv:
+    triple therapy treatments aids virus immune researchers optimism 
+enquirer:
+    ghost implants star tabloid insider alleges jonbenet ramsey publication photos tabloids barbara 
+    altman respectable 
+cuban:
+    miami castro embargo cuba 
+center:
+    shaw staples walking arena gravity 
+sports:
+    robinson espn fans owner stadium watches outlet athletic viewing tennis viewer golf 
+    utter sport tournament racing roof sporting metaphors stupid gesture athletes game bar 
+    illustrated 
+japan:
+    shimbun japan's japanese asahi trap yen emperor 
+gigot:
+    pbs's lehrer gang victories jim newshour 
+free:
+    sustain freely linux floating dynamic versions software audio obligation trade speech worlds 
+    charging subscription sadly advantage fundamental promote zone ride enterprise handing progressive en 
+    barriers advocate 
+work:
+    genius boss creation ready thick jazz stuff careful fortunately nobel louis unusual 
+    job crazy contradictory abstract hanging minimum berkeley harder superior sincere limitations shorter 
+    supposed calm collections admired presented draw pen correctness hard strangely odyssey craig 
+    accomplished sharp combine mistaken paintings embraced harsh attraction fuss theme exhibition confined 
+    plagiarism manages properly respect working published minded competence reputation flags canvas together 
+    basement hours blunt creative remarkable encyclopedia thoroughly courageous seasons mere excuse hour 
+    attitude evocative understands jobs likes honors backward welfare jeff complicated eat course 
+    exercise depth happening painter busy notions extra fish challenges subway norman designated 
+    loose admire worker friendly finest fingers belongs invented reversal technique artist notice 
+    museums works engaging instrument parts safely different scholars home depressing research painting 
+    talented artificial ignore orchestra changing field arguably gates progress satisfy gallery scale 
+    employed suddenly elements composed factory realized poor degas talent distinction inspiration annoying 
+    anger symbol incredible distinctions truly stealing life inspiring criticism employer multiple simultaneously 
+    temptation ellison ideas drawings deserve frustrating persuasive hands completely academic generous counted 
+    circa photography dazzling painters ultimate skills cult practically believes nod encountered involves 
+    cultural reference intellectually retrospective theory developed masters sweeping thrown hand kooning side 
+    visible contradictions workplace transformation surrounding fate downsizing skill supplied resort tone trees 
+    appears flaws types urban cleaning idea encourage colorful landscape beneath worked sketches 
+    models scholarly entries therefore practice periods insight stay visions shape copyright stamps 
+    deserved tested moved heroic rothko desirable restraint gonna artists rarely pollock explore 
+    symphony artistic postwar produced lean 
+brill's:
+    brill exposing 
+paula:
+    lawsuit stuart jones jones' 
+saddam:
+    saddam's dictator overthrow objective iraq hussein resume 
+republican:
+    torricelli revolution rain vocal liberal helms leadership nominees democratic rph populist opt 
+    conservative party promises sen deter opposed benefited governors agenda kentucky louisiana traditionally 
+    gubernatorial wisconsin portray moderate tight moderates hopeful democrat leaders opted incumbent candidate 
+    watts party's ideology barbour assert desperately platform ignores win election soft convention 
+    victory 
+bounty:
+    phoenix caribbean hunters defendants hunter bail entering accidentally powers custody 
+tear:
+    rubber gas cloud compound 
+action:
+    promotion muscles catalog toy decisive opponents biased acceptable ward profiling achievements reverse 
+    affirmative powell evident 
+herbert:
+    stein stein's 
+british:
+    chile brits canadian defiance row led cow eccentric prince deliberate spain telegraph 
+    england britain's introduced historian queen ireland london's detective reconciliation famine anglo sir 
+    torture scottish tony lord claimed welcomed spice main scotland newspapers britain assumes 
+    daily london folk noises universally palace citizen pinochet billionaire honey murdering mirror 
+    blair's murdoch's potato blair 
+burton:
+    dan transparent 
+israeli:
+    netanyahu yasser palestinian terrorism mossad netanyahu's ehud israel's commentator arafat terror bombers 
+    israel process barak accord jerusalem soldier hamas consistency benjamin wye prime ha'aretz 
+    
+european:
+    stressed excluded italian historic commissioner welt europe unified union france currency currencies 
+    europe's euro gloomy commission membership schr 
+answer:
+    frankly greed tim questions whale ass blank completed jon inspire pollitt exciting 
+    beth easy jerk smiling diamond parade jennifer sherman rogers alex daniel frightening 
+    question greg coherent fill slogan norm correct powered ellen 
+channel:
+    channels determination programming located 
+aviation:
+    landing pilots transportation accident balloon bulk flights rescue commercial airports 
+affirmative:
+    opportunity quotas qualified preferences proposition diversity action segregation liberals hiring promotes beneficiaries 
+    racial goals colin universities 
+percent:
+    output institution household substitute cite expected bonus ahead fallen survey difference increases 
+    worth fees annual recipients factors studies balance ubiquitous devised enormous fact sentiment 
+    eliminating eligible deficit hitting throw recession earning categories hispanics cattle preferred month 
+    alan comparison based gain predicted irs safer activity plausible revised common conclusions 
+    statistics assertions revenue calculated jurors increase expectations growth represent thus vacuum confidence 
+    forecasts favor minority percentage lot irrelevant polls aggressively ratings imply accuracy annually 
+    faster group physical taxes economic crashes declined assumptions minus large center perspective 
+    commonly usually rises earn aviation reduces unfortunately homes attributed factor prefer officers 
+    amounts outstanding deciding trends cases patterns looming surveyed gains occurs defining decade 
+    favorable quarter admission year's category measure result flu roughly distributed won paid 
+    controlling statistic generally maintaining holding maker ineffective total hispanic skilled affect parents' 
+    presumably bought civilian required characterized penn ranks double surprising compensate ratio avoiding 
+    remains manufacturing peak small competitor alcohol million size terms admissions cycle scary 
+    costly swimming accurately fully campus counterparts indicates replace sponsor americans meat incomes 
+    gdp indifferent median explanations shrinking steady offer drop worst doubt combined constitute 
+    pure prospects pressures boat accounting estimate thirds file instance deficits estimated raw 
+    remaining salaries adjusted change incorrect offers statistical single compared inflated guess marginal 
+    labor typical respondents survival cost arrests level slowly domestic hit accurate findings 
+    setting census score bosses unhappy experts comparable placing shepard absolute capacity months 
+    billion reveal upward minorities cutting gamble rolls popular increased gross occur lousy 
+    rapid poll pays shock investment meaningless inflicted save calculations gradually whereas rational 
+    margins households methods creep estate richer half rosy average surprisingly injury limit 
+    widespread arriving chips potent strong purely habits housing choice wealth earnings opinion 
+    supports industrial tv estimates wal concrete february favored neglected institute brought relief 
+    soldiers grow elections account climb share rough twice impressive acceptance started reduction 
+    dropped highway fraction unexpected farm duck civilians relies matching pretty supposedly grew 
+    decades december areas employees productivity worse scored lowest occurred error stake voters 
+    winning figure trillion dentists responsible losses settings depending period comparing equally olds 
+    tax rise decline fear break steadily falls chance presents study imposing cut 
+    risen boats sales injuries enormously boasts jumped points point gap ticket wholesale 
+    contribute rate producing low collected achieving poorer define likelihood overwhelmingly remain success 
+    biggest generations criteria conducted reduce stick lower yield births revenues inaccurate risk 
+    evidence inflation resident identify numbers controls unemployment striking amount profits electorate income 
+    margin contrary equation owed educational registered slight doubled count fewer falling showing 
+    raised outright improvement attending dangerously identified earned population discover disturbing grown problem 
+    raise additional delicious effectiveness nonprofit retired loans overlooked dropping reasons concluded concentrated 
+    wealthy trend represents reasonable produce involve fell reduced reluctance proportion interpreted moon 
+    heroin growing eliminated ranging figures choosing government dollar fall typically measured purity 
+    deaths generate terrific levels speed cash drivers higher fairly unknown hardest declining 
+    seniors addition owns mandatory september jail bureau heavily rose wages rising greater 
+    overnight greenberg guaranteed traditional initial pay grim sample thumb 
+della:
+    sera milan corriere 
+rights:
+    analogy civil movement vermont treat litigation restrict violate protection fails reproductive extend 
+    disabled legislature advocates protections interpretation govern human extension gay groups prevented gathering 
+    radical activists advocating violations tolerance equal king feat abuses gays 
+doctors:
+    assisted perform patient hospitals medicine healthy medical 
+cell:
+    coats egg sidewalk brain kazan tissue lined cells rats genes stem ear 
+    sheep nursing dna rat muscle interference phones waves 
+rate:
+    fixed employment neutral flat offset zero stable illustrates argentina rates reserve percent 
+    hike keynes pace payments calculation interest bias fed fed's discount return rapidly 
+    
+bush:
+    father's manner expression orrin introducing smile lamar fluid applauded safire focusing assembled 
+    passive blows hearts austin bauer endorse cares draft interviewed compassionate guy campaign's 
+    presidential sounding avoided nbc's endured reagan principles alexander absent dallas beating implication 
+    opposes arizona advised governor's pulling relying supporter heaven positions speeches strongest forbes 
+    bored candidacy substantive bashing flag reaching precious conservatism exley punch elizabeth drift 
+    implicit night's media's declaring cited corn compassion criticized repeats contribution pitch stands 
+    domain texas tucker pat reporters misses candidates served credentials acheson gary contributors 
+    decides worrying criticize disdain flew ames replies temper backs steve jeffrey finish 
+    brokaw fuzzy fortunate quayle bork karen confederate mock supporters closet keyes midst 
+    contradiction mansion governor smirk clinic runner respond controversy popularity prosperity handling hume 
+    fond guard impression rumors instincts shrewd stronger reminder patience criticizing bother landed 
+    pundits bush's mccain's asset closing hatch russert personally rivals strings george terribly 
+    reassuring displayed dean nationally awkward gov stuck mccain attempting daddy elder 
+production:
+    crop factories chemicals staging oil consumption 
+web:
+    engine shop automatically organs providing database someday sized searching sites chatterbox msnbc 
+    user broadcast savvy server ease browsers counting cyberspace button displays linking obsessive 
+    hysteria wait logo surfing joyce shadow information mail diaz transcript visitors site 
+    accessible intend searches engines diminished hits updated elaborate download interactive parody metabolife 
+    push cyber channel virtual dozens print traffic readers ellis quick wide linked 
+    fec bbc internet clich stark mouse useful cnn requests publications feed weather 
+    filing posting organizations promotional maintained ads 
+sex:
+    foolish casual charismatic homosexual grateful acid homosexuals condoms lesbian desires lust revived 
+    famously addiction crossed partners lovers partner reproduction attractive practical faithful appetite recovery 
+    notable recalls dirty porn sooner frenzy brains dating evolved clone strict oral 
+    sexual objection permits clinical techniques offenders erotic girlfriend advise marriages advertised nerve 
+    beat curiously 
+class:
+    kicks educated warfare suburb selective kicked contact ups martial temperament wacky productive 
+    upper middle leigh capitalist slogans kicking 
+whites:
+    blacks affluent 
+sexual:
+    sex relations attracted pressured homosexuality encounters orientation homage behavior steele lavish originally 
+    subjected drag harassment pleasure forcing rewarded perverse 
+cemetery:
+    plots buried flame lawrence arlington graves 
+republicans:
+    parties partisanship cuts opposing merits switched republican republicans' democrats' gop's undermine budget 
+    accuse balancing lott's appalled partisan convict seats democrats furious provoke scrutiny dump 
+    principled sampling ideological conviction pretending backlash wisdom congressional compromise gop accusing conservatives 
+    
+dog:
+    pit bites wag versa dogs cynicism fur cat witnessed 
+video:
+    dakota gambling convenience frequent machines poker cameras lottery games oregon 
+middle:
+    wolfe class east aged 
+states:
+    unanimous outrage massachusetts danger modified recognizes mississippi damage predicting connecticut struck joining 
+    nation mexico block minnesota missouri proliferation genocide tribes rejected disaster opposite pending 
+    protested vietnam ballot requirement prolonged sued cooperate proponents within interests bans failure 
+    complaining united discourage patriotic attacks recognize climate imposed sole visiting libya exports 
+    nafta negotiate tiny retaliation harbor exceptions america country grants permission requirements threatening 
+    actively wherever considered incentive determine diplomat state violates viable signal sustained ally 
+    aggressive citizenship boundaries decide restricted ability arms adopted prove minimal michigan dispute 
+    temporary fault implied participation preserve symbolic pushing agreements north considerably developing wto 
+    rogue illusion circles coincidence support 
+holiday:
+    greeting santa pm christmas traditions 
+travel:
+    guide travelers tourists crossing statue guides adventure 
+iranian:
+    iran iran's 
+companies:
+    networks intel boycott consulting ownership compete essence behalf market recover bankruptcy utility 
+    sunbeam mergers daimler products psychic generating tech cbs regional pharmaceutical industry dividends 
+    needless companies' budgets merger telecom manufacturers valued barrel dunlap business build dell 
+    merge motors remarkably acquire valuable broader gm chip chrysler reap corporations hardware 
+    corporation corporate firms creating brand punished mci company lawsuits competing equipped liability 
+    clients profitable nasa businesses 
+catholic:
+    church flap catholics holy dogma vatican roman theological bread worship priest angels 
+    ceremony mass participating protestant priests 
+princess:
+    diana di 
+peanuts:
+    strip sauce peanut 
+overwhelmingly:
+    confirmed overwhelming 
+mom:
+    dad caption whitman 
+social:
+    retire identical status awareness sciences enthusiasts people's retirement iq privatization replacing surpluses 
+    security injustice inherited facing priorities societies shell surplus benefits pile construction intellectuals 
+    socialism inequality patrick payroll benefit 
+clothes:
+    wear shoulders silk laundry fashion wore designers shirts staying costume clothing hotel 
+    tide designer versace regularly underwear stripped traveling dresses wash hotels worn madonna 
+    fabric 
+team:
+    pittsburgh cup team's owners players matched 
+clinton's:
+    enemies apology flytrap truth judge chelsea signing comparisons resisting dismissed troubles hillary 
+    ruined arkansas gennifer alleged arguing carville accomplishments offenses televised trip conduct centrist 
+    humiliation mode terry acquittal sins betrayed hypocrisy hillary's whitewater impeachable refusal pattern 
+    flowers immoral bennett crusade remarks finger forgive pluses claim lies humiliated helped 
+    angry motives moral denials hart broaddrick lying proving allegations wright troopers bennett's 
+    repeated absolutely determined lieberman entitled commentators explicitly approval scandals lewinsky betrayal presidency 
+    improper 
+mayor:
+    marxist city virgin homeless museum's barry rudy brooklyn city's sensation exhibit giuliani's 
+    giuliani elephant brown rudolph yorkers 
+eleanor:
+    ambitions fdr clift roosevelt cook er 
+london:
+    guardian headlined observer campbell fragile prominence cambridge british ft damaged 
+articles:
+    search departments 
+guns:
+    fatal possession gun hunting trigger accidents 
+lewinsky:
+    inappropriate monica's delivers cigar lewinsky's taped testified interview discussed prosecutors lie balls 
+    shameless sparked sucking statements regret reflects ordeal dress betty grand perjury monica 
+    walters infamous highlight starr's tp talking descriptions testify preparation mcdougal questioning sought 
+    lindsey distract affidavit hoped ginsburg sworn linda jordan dignity encouraged immunity fantastic 
+    relationship lawyers testimony affair accountable tripp leaked allegedly currie deny mouth conversations 
+    oath vernon stained false definition lips obstruction goldberg knees tapes gifts tripp's 
+    exploded denied misleading pizza deposition asks happened lawyer silver glance lied encounter 
+    paula testifying jury intern falsely thereby shifting denying lab prosecution friendship ms 
+    shocking 
+wp:
+    threats announce navy pleaded details stance report towards suggests prominent grandmother emphasized 
+    op doj note notes nationwide deals outcome move kenya emphasize timing stories 
+    warrant victims papers reliable stress effort reaction announced guilty investigators observes fda 
+    sub arrested reports adds judge's separate troubled explanation handled upcoming ordered stating 
+    ap paper observation maryland bill's noting facility describing killed rican riots automatic 
+    feature prompted illegally materials carries passes everybody's suit mention coverage fronts emergency 
+    researcher sees charges detail explosion monitoring underway yesterday's disagreement development training lat 
+    officer inside naval claiming toll resolved nation's boeing front pager demonstrators addressing 
+    mexican concerning military's suspects considering waits released reminds runs notices reporting relating 
+    verdict repair approve suharto involvement wsj observe yesterday mentions sides arrival prop 
+    concern temporarily reveals cites 
+star:
+    pounds thin dicaprio pulled enjoying counseling julia jerry stars soap prostitute parker 
+    enduring sinatra plastic brad wars celebrity singer moore armageddon willis spotted ben 
+    canceled celebrities actress allen's lift romance wedding paltrow rocky sessions globe toys 
+    surgery beverly enquirer niro stewart surgeon tabs pitt supermarket titanic keeping baldwin 
+    leonardo touching helen actor gwyneth trek boyfriend 
+lat:
+    involved cops warnings reacted vary fort condemning mistakenly wp depicting emphasizes requiring 
+    scheduled prior flatly california california's quotes atomic concession arrest angle explains paragraph 
+    pressing detailing difficulties pact assessment missions weapon damages murders reefers quoting expressed 
+    pardon breakthrough carry expert reflecting swift mentioning stresses reefer spur attendance tap 
+    graphic plight largest removed beaten upshot quake knife paragraphs attributes contemplating quote 
+    citing homicide eventual recommendation paper's region assault confirms videotape focuses 
+health:
+    mental donna consume insurance diseases balanced bacteria medicaid improving risks care employers 
+    lobby disease corpses medicare treatment suffered 
+north:
+    vietnamese korea slaves carolina kim south jacket maine korean alaska 
+expressions:
+    facial watched 
+nast:
+    glamour vogue cond si 
+aids:
+    epidemic plague infected hiv prevention infection understandable premature syndrome 
+cola:
+    thou coke coca 
+returns:
+    arthur economics legend assumption brian whoever complexity constant imperfect premium increasing krugman 
+    
+bernstein:
+    carl suspicions jacob nora 
+mail:
+    daytime thank number central received sign forgotten subscribe invitation phone stevenson insightful 
+    exclusively thanks letters fax morning toronto chain summary sending handle mails appreciate 
+    receives knock printed message affection direct kinsley simpler convenient plotz's log editors 
+    junk card subscribers shuger clerk mailing desk pundit addressed technical delivered authorized 
+    confirmation include directly receiving messages alas communication clicking manager addresses receive frequently 
+    mailed comfort delivery quotation tasks characterization address correspondence 
+pakistan:
+    dawn kashmir pakistan's disputed pakistani india 
+players:
+    superstar nba team maximum league season teams yankees coach salary prizes giants 
+    bird 
+car:
+    automobile road designs driver vehicle mounted wings killers seat miles alarm drove 
+    stolen drive vehicles needle driving theft butt parking bags license wheels install 
+    roads flying dealers cars franchise steal rear auto bloated 
+fray:
+    trapped discussion forum thread discussions 
+industry:
+    industry's lockheed smokers addictive cigarettes tobacco nevada milk reynolds circus attorneys industries 
+    nicotine suits slot casinos casino disappear regulation vegas settlement product las cigarette 
+    smoking 
+gore:
+    fatigue protected approaches picking dismisses tactic privileged boost rightly excited criticisms negative 
+    dull walter questioned wolf asserted differently weakness attached debating upset macho allegation 
+    dukakis tie raiser naomi gephardt relaxed knight primary tennessee defending proclaimed memo 
+    environmental primaries radio plan assigned tonight tense examine secretly neck hurts brit 
+    trips rationale finance position treated endorsed consultant stiff engineer clearly accusation weisberg 
+    bradley devastating stayed willie raising proposal assured daring pseudo mocking contrast helps 
+    gore's releases betting repeatedly votes challenge tones unit uncertain formidable vice challenged 
+    thinks risky authenticity severely muster scheme meet candidate's um genuinely debate headquarters 
+    serve campaign expand stunned ignored glimpse endorsement environment alpha enthusiasm seated anxiety 
+    visited applying jennings crowd repeating issues trail leo debates scare 
+moms:
+    soccer swing 
+olympic:
+    lake ioc salt sydney olympics 
+helms:
+    jesse weld ambassador thurmond attempted 
+posted:
+    essay esquire seth pegged slate's endorses liar nov aug profile prosperous feb 
+    vanity exposes cover dec holes excuses oct march harper's touted deplores chronicles 
+    depicts destroying alice compiled profiles recounts hates april sept predicts july jan 
+    describes wonders rejects speculates finds tnr 
+winter:
+    spring consists branches garden disasters array 
+east:
+    island timor indonesian militias australian eve australia herald independence territory jakarta referendum 
+    indonesia's militia arrive neo coast colonial west indonesia 
+manic:
+    medication illness tyson depression 
+united:
+    peaceful commitments advanced malaysia principal treaty cuban policy maps cold dictatorship counterpart 
+    albeit sovereignty strategic quasi rwanda cynics war owes ominous reluctant dues countries 
+    military invoked mcdonald's le muslim framework asia bully urgent gained international regimes 
+    seize tariffs feared el celebrate organization fought reflected bears closer submission nations 
+    communism somalia editorial canada states' american clash presidents pan thrive europeans world's 
+    affairs strengthen bureaucracy destruction spying rival imports confrontation gist wrongly regime chemical 
+    imperial spell continental states conscience africa tribunal annan threaten stability americans' germany 
+    abroad threatened america's global mocked dealing kingdom succeed carrying 
+washington:
+    dismissal fred afflicted seattle snow modesty wire sleazy beltway monthly prestige washington's 
+    resisted william quiet area deadly mogul hire sounded herbert indication strauss connected 
+    newest week's pair local lobbyists associates noticed declared longest edition folks pols 
+    gathered state's demonstration week exaggerated abandon weird clues document reversed testament columbia 
+    correspondent catch discovers lobbyist correspondents appointments post establishment shut philip charles birthday 
+    representing contributor declares gloria evans building formed illinois reich's map bridges rejection 
+    sally robert downtown hurricane tommy squad thrilled investigative pipe veteran investigating michael 
+    demanding correctly journalists peddling presence wingers dowd virginia krauthammer loser 
+women:
+    ceos bearing split breast shame prejudice equivalent neat nurse screaming induced relative 
+    differences lots feminist legs norplant men's bone nude surveys camps transformed portraits 
+    fit represented custom singing diane gender sets cheating rendered renaissance retreat fertility 
+    feminine knee tightly twin sexuality chin cultures inclined photographer laura ballet conscious 
+    pregnancy makeup cancer sexy chorus inches benign nearby patricia breasts hair pregnant 
+    ceiling roles female daughters women's woman's compare woman men composition shy clothes 
+    beauty rape husbands group's offspring girls skirts skirt designed moms sexually slept 
+    raped gear chic feminism fights frozen playboy wholly brass feminists conflicts iron 
+    hostility function obesity diet naturally queens stereotype equality centuries project reflect confused 
+    hats height bra bodies inaugural careers warrior 
+english:
+    spelling dictionary incapable fashionable speaking communicate refer oxford accent expressing speak translation 
+    toilet language 
+starr's:
+    excesses leaking disclosed ken commenting hale leaks starr kenneth 
+game:
+    stakes ruth sloppy kick sports shoulder yards catcher boasted basketball pitcher inch 
+    millionaire championship baseball aaron play frame ball football mon bulls base bowl 
+    shots bet scoring player 
+dogs:
+    animals winner hot dog birds breed nominated judging cats animal bow 
+beers:
+    akin fancy beer wicked pale expensive test cheap holland 
+encryption:
+    lock locks key 
+invited:
+    participants son's shower ongoing submit invite denominator 
+wine:
+    juice couch wonderfully ordering wheel bottle jam label ring merchant regions champagne 
+    superb labels wines tastes soil glasses fruit bottles shaped gag chart nose 
+    spectator semi 
+ireland:
+    northern ulster irish ira fein 
+missiles:
+    cruise guided defenses missile laser range 
+israel:
+    israeli captured arab syria heights accords oslo peace warn reign mourning palestinians 
+    terrorists transport israelis talks plea radar 
+nato:
+    expansion air alliance yugoslavia casualties allied inclusion bomb offensive urged catastrophe milosevic 
+    permit refugees belgrade credibility targets sunny attacking gen nato's troops refugee aim 
+    ground czech bosnia commander poland negotiating clumsy deadline tanks bombed concessions resolve 
+    airstrikes rests skeptics aggression milosevic's force command crush bombing commitment kosovo 
+writing:
+    assignment cheerful colleague learns prepare essays suck complex write journalist writers symptoms 
+    wooden thompson cure 
+laden:
+    bin villains 
+fabric:
+    sweat fleece uniform shirt 
+poems:
+    pinsky poetry poem hughes stevens 
+ultimate:
+    skull fighters fighting boxing 
+baker:
+    misery listened mount quantity cake 
+sat:
+    lemann verbal ivy scores grades 
+gogh:
+    van vincent 
+stores:
+    store chains retail 
+kosovo:
+    killings albania halt conflict albanian humanitarian withdraw liberation west's nationalist serbia vastly 
+    nato serbian cleansing province allies pronounced serbs atrocities army fleeing kosovars withdrawal 
+    intact generals intervention balkans islam autonomy exploited drafted forces hawk slobodan ethnic 
+    serb armed nationalism ambivalence invasion intervene helicopters yugoslav deployment peacekeeping consequences doctrine 
+    kosovar sharon vital brutality albanians saletan 
+joyce:
+    blah maynard salinger carol 
+service:
+    agent variation deregulation lip squeeze postal cents personnel distance remedy customs bells 
+    agents duties stamp bureaucratic tip duty owe expenses volunteer helicopter delivering secret 
+    requested refuse protective 
+cover:
+    magazines weighs forthcoming ignoring praises century's assesses mocks packages condemns package traces 
+    photo encourages naive cheers examines concludes worries accuses supplement towns contends newsweek 
+    advises dishonest marvels republic sidebar asserts timothy explores anniversary gates' standard june 
+    posted article defends blames economist magazine outsiders mentor excerpts useless warns applauds 
+    criticizes accompanying celebrates claims proves tracks morrison urges skeptical limiting amateur argues 
+    
+pcs:
+    sprint billing 
+san:
+    francisco bay appropriately diego chronicle 
+iraq:
+    diplomacy weapons arabia showdown hussein's zones fly inspections backed compliance iraqis egypt 
+    iraqi poised iraq's persian baghdad strikes surveillance missiles planes kofi inspectors inspection 
+    lifting sanctions bases operation stealth kuwait farrakhan unrelated insistence desert butler turkey 
+    egyptian biological bombs lifted saddam gulf attack cease 
+policy:
+    mistakes oppose merit views heritage spectrum facto theoretical foreign considerations achieved kissinger 
+    unwilling engagement makers sabotage monetary treats disastrous obey accomplishment freeze robust fiscal 
+    renewal dictate joint dilemma brookings invariably chiefs honorable disagrees fcc implement weaknesses 
+    
+europe:
+    eastern stalin continent european 
+oprah:
+    rolled hilfiger beef guests springer 
+brown:
+    buzz tina talk brown's charlie pandering mayor ron shawn magazine's yorker butter 
+    peanuts 
+si:
+    nast cum sic quo corpus de 
+gang:
+    novak commentariat cnn's capital gigot mark mclaughlin shields margaret hunt fox kate 
+    carlson 
+house:
+    january congress assume revelations explained demonstrate commented decided spin suite lords acknowledge 
+    arrange legislative gingrich's approved mccurry bob contempt impeachment pet coming resign matters 
+    senators culpa mike impeach concerned leaning foot lincoln meals moving appearing chief 
+    hoping whistle departure republicans leak wound corps condemnation klayman joined battle interior 
+    mo chunk dnc clinton's mandate gingrich loyalty session response resolution offices office 
+    newt conceded ill weary fits witnesses annoyed naming planning hall provision spinning 
+    donors watergate hearing desperation suspicion kitchen enters congressman defeated peers lawn kennedy 
+    crowded burton congress' members putting persuade arm gate floor generated honored delegation 
+    events pork discuss staffer spokesman defended locked occasion reject bargain investigator chairs 
+    privately posing tag client gaining flash agreed river delay aides resignation issue 
+    member colleagues majority november insisting hubbell appearances courage rules voted convinced mess 
+    reception weekend heard inquiry explosive secretary lame utah walked undoubtedly livingston impeached 
+    husband's line accounts nixon sweep cox agree complained evidently bills evening engaged 
+    confident clear openly trent shortly pause doors representatives met scandal formal subpoenaed 
+    provoked lott propose definitive brock unity lawmakers speaker summer strategy bruce vowed 
+    full shore case speculation blaming oval afternoon order sit agrees kendall apartment 
+    ate vacation disclosure administration's cleared hosts representative bipartisan meeting observed whip till 
+    chamber referring webster cabin press bathroom blumenthal room tom prospect standing calls 
+    safe briefing meal senate's retain helping mistress lose vote grace tougher henry 
+    implications examined spins talked comments empty subpoena numerous including hopes documents neighborhood 
+    damning capitol bring articles sink hook censure embarrassment pearl loaded irresponsible built 
+    machine nuts sticking lady apologize deputy donor chairman pin transcripts armey tells 
+    presentation invited conference suggestion committee committed motion caucus lloyd included tossed hearings 
+    leader lunch veto dinner proceed confession avoid hide modest random houses staffers 
+    prone rally consideration quit broken dimension dick investigation offered ugly matter finally 
+    deployed turned president's ethics photograph proceedings unprecedented outraged delighted consensus legally senate 
+    distorted complete bothered enjoys minutes cynical door fellow reportedly hyde advance banning 
+    legitimacy committee's challenging administration coffee fund witness clintons dozen nail camp payoff 
+    aide leon publicity final admits passed refusing rep pressed chooses trial blew 
+    convince hold fury removal white locals render smith damaging judiciary managers legislation 
+    routine exit faces probable hired pursuing staff examination filed 
+genes:
+    loving gene upside kin adoption species liver selfish encouraging switch selection forgiven 
+    genetically selected indifference genetic 
+madeleine:
+    albright's albright 
+thomas:
+    anita evan hill accusations heston clarence horrified friedman jackson's jefferson pynchon 
+flight:
+    twa tank egyptair rabbi crew fuel delta airplane attendant crews pilot passenger 
+    vampire aircraft faa passengers plane smuggling 
+harry:
+    louise gifted dispatches prisoner truman potter 
+pluses:
+    spun public's endlessly dragged hypocritical rating 
+randy's:
+    quiz responses katha carvell heaney radosh eric wrap dale floyd answers 
+books:
+    separately glorious seller discipline noble series titles adventures sold divisions travel authors 
+    publishing narrative reviewed barnes author's literature rotten specialized volumes sellers sells wizard 
+    written borders harry copies civilization companion reviewing acknowledges magical mtv torah wrapped 
+    scholarship cowboy novels bookstore void disney purchased nonfiction filling publishers prose viacom 
+    lists stores norton culturebox list succeeds buck amazon fiction shipping publisher literary 
+    reads pocket volume library 
+critics:
+    samuel plugs wilson trademark contend applause memoir praise knopf theatre bland foer 
+    billy aging pulp jackie architect goofy flick show's occasions flop postmodern hailed 
+    melodrama lacks courtroom arnold innovations spectacle confidential declare draws thriller predictably legendary 
+    hopkins fi witty humor hype rave updates neil recycled christopher complain handful 
+    kurt generic review richard snap drama guggenheim anthony reminiscent theater seinfeld joel 
+    irresistible defenders sentimental newsday hilarious crystal complains unexpectedly weekly entertaining praised film 
+    deemed shaky exploration dwell hyped warner update audiences opera bent tricks ludicrous 
+    rob debut classical judgment highbrow lesser sitcom clips earns outrageous dismiss nominations 
+    playwright implausible whitney grotesque book's wins predict applaud detractors calvin franklin judged 
+    gothic official reviewers 
+theories:
+    conspiracy wave ages 
+malls:
+    mills mall merchandise 
+street:
+    blocks lights streets box rubin corner bust journal wall avenue 
+economics:
+    profession mit gold textbooks conventional textbook lit landsburg mathematical fields economists 
+child:
+    sleep harmless sinister flawed sleeping crying babies baby bat asleep infant neglect 
+    child's children helpless conceived poster abuse unfortunate professionals mother feeding unacceptable terrified 
+    necessity 
+india:
+    imprisoned hindu india's indian pioneer pakistan embarrassed nuclear alert tests pessimistic 
+bin:
+    saudi sudan terrorist suspect taliban osama laden bombings afghanistan 
+parks:
+    luxury occupied cleveland zoo park deck 
+prison:
+    sentenced inmates madness convicted parole prisoners prisons sentences offense 
+prime:
+    parliament gandhi ministers minister coup resigned ousted wasted 
+internet:
+    currently parallels libraries engineering cheaper printing archive censorship instantly dedicated devices fascinated 
+    network applications pc providers technology reach seconds bandwidth casts sorts founded files 
+    using access san commerce corp computer connect deliver systems polling installed medium 
+    retailers unlimited firmly visionary preventing telephone flow bridge connections users strategies architecture 
+    outlets purchases depend purchase explorer customers guru valley lines properties advent bits 
+    chat yahoo privacy instant entrepreneurs electronic content forbidden staring allows provider communications 
+    rumor interpret envy wired rom predictions netscape voter microsoft's oriented removing telecommunications 
+    computers browser net transform existed services disk seeks cable windows via depressed 
+    tools fee microsoft anecdote changes communities obstacles transactions develop remove tends consultants 
+    rural contention founder web existing tool service cd crippled data saga voting 
+    taxation ignorance differ entrepreneur marvelous campaigns rooms remedies poses pornography discriminate fast 
+    online technologies divide destination spare smarter 
+medical:
+    trained pot placement doctor marijuana plotz residents organ physicians marketplace breathing psychiatric 
+    surgical supplies procedures practiced poisoning association journals doctors practicing complications 
+valley:
+    venture lewis' silicon lewis clark 
+muslims:
+    tudjman bosnian holbrooke 
+educated:
+    elite elites sensibility 
+click:
+    doug puzzle metaphor reviewer northwest contents farce subject read listing links version 
+    noah missed starting sullivan cookies cool archives window francis samples yo randy's 
+    proceeds listen link icon peter tour saves hang date sean molly matt 
+    select reply bottom wilderness instructions 
+pro:
+    abortion birth roe shifted wrestling vs fetus abortions nowadays dislike gruesome wade 
+    performed partial procedure 
+pot:
+    cambodia statesman quietly jungle enthusiastic toxic smoke pol 
+chair:
+    execution electricity furniture florida executions electric inspector 
+nobel:
+    awarded hypothesis prize award laureate 
+russia:
+    brazil russian tons nukes loan georgia western primakov imf debts rampant 
+post:
+    tough warned accused sources journalism provisions defeat summit appearance editor expense indicted 
+    august deep else's record remark usa media stir dominates unclear concerts item 
+    leading pledged references pete phil odd bono accidental senior identifies usual sits 
+    breaks concluding agreement ii earliest marked proof experienced wounded fronted story's inability 
+    obituary chilling quoted businessman broke killing earlier returning virtually graham significance fighter 
+    appear schedule realities detailed attribute despite directions style wake midwest maureen who've 
+    announcement described finding pushed washington flight stunning today's virtues day's latest counts 
+    refuses continuing lengthy indicated extensive held thousands statement headlines definitely imminent pentagon 
+    developments acknowledged replaced los tens leads emerging pieces motorcycle credited head firing 
+    associated follow dispatch street contributed scientist exception apparent covering jets features prepared 
+    barred issued madeleine baltimore packed breaking ships doubts intent actions journalistic accompanied 
+    scoop installment reached multi headline pointing weeks advisory cohen diplomatic renewed succession 
+    donations reporter charged widely fold newly suspected worldwide string gossip violating ink 
+    track pre angeles sober sections newspaper various discovered highly publicly anonymous credits 
+    tape dailies puts major stretch warning referred promising news comeback tops distribute 
+    surprise papers' signaled wondering metro reader revealing attempts vulnerable executive indicating negotiations 
+    abc space emerged pledge suicide widening explain biting embracing chances closed pulitzer 
+    mentioned delayed fare condemned editorials defense recommended produces comprehensive featured decision katharine 
+    lead step analysis equipment blow grip atop improved abandoned officially cross conclude 
+    atmosphere majors release managing attempt impending chair editions tribune expanded indictment reported 
+    highlights alongside obstacle questionable disappeared demise blamed appeared kurtz revelation bomber columnist 
+    tendency top aftermath donated pressure passage meetings tips comment column taking caught 
+    possibility exclusive mission walker department's hundreds winners columnists unnamed successor admittedly donald 
+    stated covered minute emergence surrender fired marks allowing 
+code:
+    experiment hello convert inform object developers outlook cola engineers source releasing bible 
+    obtained bug programmers bugs checking 
+NIL:
+    
+ads:
+    advertisers d'amato troubling simplicity feingold counter liquor banner fulfilling ad targeting spots 
+    buys advertising angles advocacy targeted purchasing 
+alcohol:
+    stomach drinking wine drunk drunken gods blood stroke guidelines drink alcoholic drinks 
+    concentration 
+hunters:
+    bounty skip 
+married:
+    spouse penalty couples gift prudie's couple marital marry marriage bride unmarried 
+mon:
+    cute kids' figuring pok organize resemble collecting gotta tail indulge snake creatures 
+    manufacturer collect exploits dolls cards lacked mini 
+beer:
+    crap throwing taste prestigious presenting assess testing panel blind ranking distinctive adams 
+    import preference beers round subjective exotic 
+law:
+    committees legal tear judicial tribe unreasonable decisions precedent courts specter enforced wife's 
+    scheck enacted court's method scope constitutional agreeing requires ban illegal prohibition justices 
+    justice professor limits academics illustration court rehnquist apply individual yale seed amendment 
+    maintains supreme statute governing violated regulate prohibit antitrust suing banned rule individuals 
+    constitution violation kinds apologized criminal therapeutic scalia defines scholar legislators valid unpopular 
+    enforcement reasoning constitutes firm tower judges prohibited upheld murphy laws unconstitutional argued 
+    
+school:
+    apt scott curriculum prayer suburban discovering classes pray teach structures prep jersey 
+    bus professors stanford voucher separation funded teacher school's attend institutions grade performing 
+    indiana schools college columbine colorado attract improvements attended elementary courses teaching houston 
+    shootings belief admitting lessons kills student promoted teens violence taught faculty alienated 
+    board endowment charm graduate blond community afterward rifle graduates basis suspended rank 
+    isolation guidance university's ample experimental dumped foes boy harvard junior students ager 
+    mary frustration va teachers hooked fashioned high massacre kid atlanta failing county 
+    districts university district aimed philadelphia classroom 
+question:
+    courtesy proved relevant obliged joke clue responding yes fishing eager idiot proper 
+    responsibilities justification option randy suited harrison mistake dave raises honest answered pretend 
+    hills pennsylvania hurt happen herb don fair altogether debated likewise honestly refers 
+    interesting intends curious etiquette glad repeat ethical incidentally cheese answer topic preposterous 
+    settle send uh pursue posed answering disclose persistent charge rhetorical exact settled 
+    fairness pose andrew bunch kelly replied recalled framed controversial purposes feelings solid 
+    appropriate ohio cocaine beliefs direction explainer inherently brill's se johnny start checked 
+    assumed shearer marc choose obvious chris craft picked philosophical hint display burning 
+    narrow reward psychological switzerland casually instruments adam 
+age:
+    younger styles tribute oneself older disability warren youth generosity golden mediocre verge 
+    teen 
+diana:
+    morton spencer grief intimacy diana's princess photographers spirited teresa intriguing disorder mines 
+    royal funeral 
+jews:
+    hitler's holocaust trace moses hitler asians outer thesis buckley dragging jewish nazis 
+    biblical celebrating origins hatred inferior wartime scant orthodox ancestors consistently survivors semitic 
+    laughing semitism finkelstein appalling surviving formally strain muslims hanukkah traits embrace devil 
+    roots christian aliens 
+dentists:
+    gum breath teeth cosmetic 
+degrees:
+    interestingly ship recorded hottest temperature calif heat 
+japanese:
+    prints tokyo gogh godzilla mud japan 
+garden:
+    madison winter midnight grass shapes bloom gardening flower plant plants 
+egg:
+    eggs harris nest 
+reno:
+    appoint freeh independent fbi investigate janet general reno's waco attorney integrity 
+pray:
+    dark paint smell sing cave 
+life:
+    happiness root souls filmed glenn portrait soul honor tales emerges sense man's 
+    leap situations unique hell patch manic marcus places myth match history bizarre 
+    wish amazing elusive picasso friend's powerful sons alien sympathy realize bitter puzzled 
+    sacred alive gently ears anne passages glass ultimately partly announces ignorant deceased 
+    continuous hunger forms gorgeous loved making youthful outsider articulate painful characteristic guys 
+    conventions father philosophy judith waiting circumstances travels translated manifesto lazy chase touched 
+    grows max theorists murder che holds ancient art terrible museum modern dangerous 
+    heroine playing constantly drugs ends rare mysterious dance centered james entire serving 
+    trivial holiday writer vain extremely demographic planet everyday critical generation believing spent 
+    ego preferably miserable echo expose resentment marshall trains isolated delight joseph excitement 
+    mounting tradition enjoy passion die imagining storm genuine sympathetic extended stand beings 
+    superficial words guest relax biography logical brilliant themes nichols responds attention stranger 
+    sea intelligent meaning brave natural remember extent illustrate hero manners refrain friends 
+    pbs age feels whatsoever pursuit rick horrible winds rock admirable traveled narrator 
+    painted biographies blue absence obscure emotions greatly sight sort happily subtle organic 
+    understanding memoirs fantasies bed sum love fame settling impulse kiss bones shoots 
+    peculiar ridiculous trials crashed shoes sound carefully survive strange personality curiosity amy 
+    feeling belt signed simple murderer freak remarked ways failures distinguished throws pain 
+    astonishing fever magic sounds ostensibly tragic emphasis constructed hollow insists ordinary greatest 
+    harmony normal example inner wears evolution mob pro du stages pick dumb 
+    fine lifelong personalities derived desire messy salesman died saved chapters mona mystery 
+    captures beach destroy edward blend charming studied morality sister reality frederick journey 
+    richardson quest deeply remote darkness temple imagines compelling nonsense partially intellectual monkey 
+    stern wind miracle tree eye depict suffering nightmare rush shattered associations struggle 
+    toward columns discovery master pleasant ocean subjects ann distant manhattan stood hints 
+    awesome wildly path swept lived entirely penchant missing death live pie lung 
+    episodes sky slip turns unfairly condition port laboratory insane accepts exactly longing 
+    flies decent imagine enhanced alter television heart fiercely viewed living arrives sour 
+    tall circle unaware monster bad beloved duke creepy regard laugh banal blessed 
+    whole strength devotion model son person's remind frustrated images wood nice title 
+    characteristics walk consciously universe vivid famous comfortable happy wrote scientific recall shadows 
+    opening gestures dr guilt host historical enjoyed moment torn pleasures bold unable 
+    despair pity escape endure conception family factual gospel childhood implies regular intimate 
+    writings lacking god table virtue discussing event unusually afraid realm involving matisse 
+    car joy brother ambition unless view oxygen seemingly context touch realistic mccartney 
+    perpetual bringing authentic introduce anyone's ruin culture simpsons route medieval chose barely 
+    telling paradise aspects perfect hung realism understood covers garbage fools youngest experiences 
+    girl shallow villain countless welcome dying rich ladies endless lover writes fresh 
+    reason pal dead length cartoons boxes leg closure totally acts easily design 
+    interested mars prudence nuanced beautiful bourgeois tired jean wild eventually freud origin 
+    loss perfectly tale bit close banker lack feel learned sad observations obsession 
+    husband bore appreciation spark roseanne plenty jay form span mentally wondered waited 
+    difficult wife wrong values wilde mountain century finished facts obsessed forward notion 
+    reminded creature philosopher throughout consumed nelson rest wishes wonderful fundamentally jonathan figured 
+    nervous sentence civic knowing club laid crowds tended young unpleasant novelist bound 
+    rage whatever mind personal experience fascinating appreciated inspired apart changed frank unlike 
+    processes karl mood silly slim ironic actual greek degree belong consequence stops 
+    meant catching surface provocative turn thoughts biology drawing daughter purpose minds closely 
+    roth forever exploit humans little drawn left uncomfortable roundup achievement qualities description 
+    forget spirit awe occasional takes sentiments followed memorable motivation sitting autobiography straight 
+    professional humanity cameron wonder lucky profound scientists friend st warm metropolitan emotional 
+    rice revolutionary jane drew fool subsequent focus mother's riding primitive mad understand 
+    imagination permanently kidnapping resembles depicted habit abraham alfred ruthless born lost struggling 
+    honesty material borrowed nature conversion amid extreme dreams fun lives earth remembered 
+    darker closest immigrant kill vision great contemporary night delightful happier image caring 
+    career threw divine emerge cruel celebrated bare relentless occasionally ideal appealing indicate 
+    body structure adolescent confronted bag real warmth vast deeper appeal wipe express 
+    brutal trick relation reflection persona work utterly dream objects recognizing bitch pack 
+    cooking 
+disney:
+    animated collins pooh eisner tourist town disney's parks celebration marketed ovitz ross 
+    thanksgiving compensation 
+eat:
+    type weight restaurant hungry fat food fried foods chicken eaten eating 
+bar:
+    chocolate candy texture flavor bars 
+texaco:
+    stockholders exxon executives discrimination scenario suppose 
+security:
+    implicitly council adviser operations transfer transferred social guards cooperation savings prefers spouses 
+    pension classified cia 
+pat:
+    robertson perot buchanan's crossfire buchanan trump ventura 
+blumenthal:
+    opinions sidney drudge libel 
+children:
+    abusive parents families cda abused ensure divorced tend married tolerate divorce adult 
+    childish unemployed adults monsters aunt certainty parallel sacrifice mothers separated behave explicit 
+    denver alternatives motive harmful fathers vicious child dependent physically nanny poverty seriously 
+    parent uninsured agers sensitivity portion cries innocent shoot strangers shield toss cloning 
+    sake decency financially injured horrors hugo addicts relatives purple cancel children's daughter's 
+    bogus technological kids parental sisters relationships weigh 
+problem:
+    solved excessive suggestions trouble stall dated variations solution neighbor solutions rude minor 
+    sincerely target confront solve signature strains serious situation schemes problems approach instances 
+    helpful dear enable accomplish advice whenever fix 
+ryan:
+    spielberg saving hanks 
+civil:
+    clubs rights polite gentle pursued simpson brady society nicole liberties 
+care:
+    cared proposals suitable premiums stays dig plans sick managed hmos satisfied quality 
+    centers inevitably reformers charitable adequate sue maintenance affordable priority satisfaction bullet costs 
+    elderly fail basically retrospect hospital hmo insurers arrangements health charities leisure breakdown 
+    patients specialists 
+voter:
+    application drives register registration 
+church:
+    churches pope god's catholic christ baptist o'connor 
+warner:
+    acquiring aol stems synergy amsterdam bros nfl shareholders aol's gerald deal 
+language:
+    phenomena theorist usage mature languages java plain english imagined movements spoken linguistic 
+    socially yadda spoke revival kidding drum math invention replacement distinct jargon expressions 
+    perceive preserving speakers spanish judgments expertise precise 
+chinese:
+    par espionage secrets ho zemin hong fled exile followers china overseas descent 
+    taiwan embassy export communist satellite tiananmen huang ripped china's lee dalai rockets 
+    conferences beijing rocket restaurants square launch launching alamos jiang kong satellites crackdown 
+    keen 
+el:
+    warming ni stream pacific fires pa severe waters jet fitting 
+fein:
+    sinn gerry 
+hats:
+    hat absurdity 
+ice:
+    pound hockey steps water skating degrees cream pool absorb pump calories sugar 
+    
+phones:
+    radiation mobile exposure pcs cell 
+submission:
+    property disclaimer submissions discretion publish connection 
+drugs:
+    dangers diagnosis partnership prescription equals proven treating drug aired pills propaganda prozac 
+    chronic 
+dad:
+    forgot oldest mom 
+le:
+    titled les marie devoted figaro french france's paris monde lib ration 
+krugman:
+    paul brazilian captain dismal krugman's 
+iq:
+    cent bell murray curve 
+psychology:
+    psychologists gould unconscious evolutionary 
+rican:
+    puerto clemency 
+sign:
+    neon shops signs open 
+shepard:
+    fence tied matthew 
+jewish:
+    ultra palestine lands jew nazi edgar loathing revenge manual memory persecution fascist 
+    devote judaism beast laying arabs land twist hiding perceived antichrist thugs swiss 
+    falwell secular religion mel disgust acquired gangster un portrayed jews sr editor's 
+    ritual mountains pollard studying rituals goodman identity detroit identification 
+king:
+    earl martin iii slaughter jordan's assassination kings wider throne malcolm tenure hudson 
+    branch luther eugene saint king's legacy family's widow ali ray crown larry 
+    rev 
+list:
+    orwell submitted ranked gather names influential bookstores chosen publicized device tracking turner 
+    foundation sale listed publishes wayne includes items stimulate cheer fortune sends pleased 
+    books carnegie resist oprah charity 
+avenger:
+    screw reservations southwest employee airline loyal seldom greedy trucks tuned gentleman shopping 
+    complaint mild petty episode airlines apologies 
+illegal:
+    donation immigrants exhausted contributions ins practices immigration 
+lies:
+    adultery tempted kinsley's damned 
+germany:
+    resistance germany's spy berlin zeitung conducting german von chancellor helmut kohl der 
+    frankfurter germans 
+mob:
+    godfather mafia analyze sopranos shrink 
+reagan:
+    burns convictions jimmy carter nancy biographer inviting trusted respects extraordinary grasp morris 
+    shipped anecdotes simplistic profoundly succeeded empire implicated contra ronald participated albert grave 
+    reagan's gorbachev luck edmund soviets fictional historians morris' walsh idealistic hostages suffers 
+    deserves 
+murdoch's:
+    murdoch circulation rupert 
+shopping:
+    shoppers avenger nasty reservation airport tune reserved loves spokeswoman invoke malls haul 
+    customer informed super month's complaints filled truck 
+italian:
+    italy turin della rome stampa la repubblica fascination 
+bob:
+    dole recordings merrill kemp barr dylan dole's 
+words:
+    letter sheet screens literal thousand capable cheat exceed hundred location abilities quotations 
+    spaces rings hack phrase queries silent word millennium chest phrases 
+ain stream el villains severe unusually fitting 
+germany:
+    spy welt nazi zeitung conducting italy german accepts chancellor frankfurter germans emerge 
+    postwar 
+mob:
+    diane sinatra analyze sopranos lynch 
+stein:
+    herbert volumes herb contributor 
+shopping:
+    avenger store nasty reservation identifying loves customers explosive invoke malls haul trucks 
+    customer month's confirmed complaints filled truck 
+globe:
+    dicaprio star boston hearts lip alleges angel nancy jonbenet singer toronto lavish 
+    spotted acknowledges cowboy releases wedding frank 
+conservative:
+    liberal heritage sponsor socially solutions wing editorials values commentators seeking interpreted publications 
+    conservatives betrayal spectator 
+rockefeller:
+    nelson devil 
+morris:
+    contradictory eddie resisting idiot dutch reagan accomplishments prostitute biographer defending memoirs holes 
+    portrays philip albert reagan's edmund dick fictional morris' spiritual divine 
+bob:
+    dole billy merrill shadow woodward liver barr dylan dole's forgiven smith 
+submissions:
+    published property disclaimer submission target discretion publish denominator connection instructions 
+ decent marx 
+    hiring factory concrete employer motors wage employees employers plant construction restricted temporary 
+    immigrant wages plants 

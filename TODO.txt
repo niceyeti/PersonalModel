@@ -1,0 +1,24 @@
+Gleason TODO's:
+  --test models on multiple enron emailers
+  --try different parameters for distance function
+  --with PYTHON generate measurements of recency promotion: minus stop words, see if recency is really 
+    a meaningful attribute for caching, or if its just noise, eg, do words recur w/in distance x of one another?
+    Note that the cluster metric should also provide a degenerate form of this information, since recency is really
+    something like a skewed exponential distribution (or other time-based distribution)
+
+  ensemble: personal + general
+
+  -how to anonymize emailers: just use a number, alias, etc. Reference is invertible anyway.
+
+
+
+
+
+
+
+
+
+
+
+
+

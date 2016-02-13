@@ -1,0 +1,24 @@
+next week:
+
+build vector space of 5-words + context_vec
+-assume worst-case model: build a billion vectors, linearly check them all
+-begin by dropping words
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

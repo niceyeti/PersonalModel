@@ -1,0 +1,20 @@
+keep trying naive distance metrics, to find good metric.
+MORE FEATURES! And other datasets for topic information or other
+leverageable information.
+  --non-institutional email datasets
+  error analysis at this point is critical,
+  learning ontological commitments/connections
+think heavily about knowledge engineering: can we meet 60% accuracy by this?
+Error analysis:
+  what in our models caused this error, how could the error have been improved?
+
+
+
+
+
+
+
+
+
+
+
